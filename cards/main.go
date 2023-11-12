@@ -11,6 +11,13 @@ func main() {
 	// variableName := value (only for initialising new variable)
 	card := "Ace of Spades"
 	// reassignment
-	card = "Five of Diamonds"
+	card = newCard()
 	fmt.Println(card)
+}
+
+// add new function
+// function declaration
+// func functionName() returnValueType {}
+func newCard() string {
+	return "King of Hearts"
 }
